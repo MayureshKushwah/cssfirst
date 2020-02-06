@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title> Show items</title>
+</head>
+<body>
+<button onclick="myFunction()"> click here</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction()
+{
+var x;
+var person=prompt(" Please enter your name", "Harry Potter");
+if(person!=null)
+ {
+  x="hello"+person+"!how are you today?";
+  document.getElementById("demo").innerHTML=x;
+ }
+}
+</script>
+
+</body>
+</html>
