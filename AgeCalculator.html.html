@@ -1,0 +1,21 @@
+<html>
+<head>
+
+<script>
+ function myfun3(){
+ var birth=new Date('10,02,2001');
+ var curdat=new Date();
+ var cyr= parseInt(curdat.getFullYear());
+ var byr=parseInt(birth.getFullYear());
+ var x =cyr-byr;
+ document.write("current date and time:"+(cyr-byr));
+ 
+ }
+
+</script>
+</head>
+<body>  
+<input type="button" value="clickMe!" onclick="myfun3()">
+
+</body>
+</html>
